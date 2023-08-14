@@ -1,0 +1,41 @@
+
+.f1 {
+    font-family: 'Lobster', cursive;
+}
+
+.f2 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.f3 {
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    height: auto;
+    font-size : 60px;
+    text-align: center;
+    color     : #000;
+    opacity   : 0.8;
+
+}
+
+h1:after {
+    display      : block;
+    content      : '';
+    border-bottom: solid 5px #fff;
+    transform    : scaleX(0);
+    transition   : transform 300ms ease-in-out;
+}
+
+h1:hover:after {
+    transform: scaleX(1);
+}
+
+h1.fromright:after {
+    transform-origin: 100% 50%;
+}
+
+h1.fromleft:after {
+    transform-origin: 0 50%;
+}

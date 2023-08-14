@@ -1,0 +1,21 @@
+.darktheme .hmenu > a {
+	color: var(--color_link_menu_dark);
+}
+.darktheme body {
+	color: var(--tcolor);
+}
+.darktheme .hmenu-more-dots > i {
+  background-color: var(--color_link_menu_dark);
+}
+.darktheme .q-search-call {
+  color: var(--color_link_menu_dark);
+}
+.darktheme div.page-head-main h1.title {
+  color: var(--homes_titles_colors_dark);
+}
+
+.darktheme .hmenu > a {color: var(--color_link_menu_dark); }
+
+.darktheme .fix-notif, .darktheme .close-fixed{
+  background: var(--bgcolor_dark);
+  }
